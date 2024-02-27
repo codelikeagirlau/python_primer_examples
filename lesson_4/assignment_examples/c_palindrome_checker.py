@@ -1,6 +1,6 @@
 # Palindrome Checker - check words OR phrases
 
-# Prompt the user to enter a word or a phrase for palindrome checking, and convert the input to lowercase
+# Prompt the user to enter a word or a phrase for palindrome checking, and convert the input to lowercase (otherwise it's not a palindrome match!)
 palindrome_input = input("Welcome to the palindrome checker! Please enter a word or a phrase: ").lower()
 
 # Remove spaces from the input palindrome word and convert it to a list of characters
